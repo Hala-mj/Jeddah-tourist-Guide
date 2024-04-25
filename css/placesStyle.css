@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFF8E8;
+    width:85%;
+    margin-right:auto;
+    margin-left:auto;
+}
+header {
+    color: white;
+    background-color :#004C99;
+    text-align:center;
+}
+header h1{
+    line-height:200%;
+}
+nav {
+    padding-bottom: 20px;
+}
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0 3px;
+}
+nav a:hover {
+    color: #fee7b5
+}
+.current-page {
+    color: #fde1a7;
+}
+#wraps {
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+}
+
+.place {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 10px;
+    margin: 35px auto;
+    box-shadow: 0 0 10px 0.1em #004C99;
+    background-color: white;
+    border-radius: 10px;
+}
+.place .img-container {
+    flex-basis: 25%;
+}
+.img-container img {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.place .place-info {
+    flex-basis: 75%;
+
+}
+.place .place-info h2 {
+    font-size: 30px;
+    margin: 0 auto;
+    color: #004C99;
+}
+.place .place-info p {
+    line-height: 1.3;
+}
+.place .place-info a {
+    display: inline-block;
+    color: #004C99;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+.place .place-info a:hover {
+    text-decoration: underline;
+}
+
+.starts {
+    color: #FBFF00;
+}
+.starts:hover i {
+    color: #FDFF80;
+}
+
+
+
+
+
+footer
+{
+    color: white;
+    background-color:#004C99;
+    font-size :.60em;
+    text-align:center;
+    padding: 13px;
+}

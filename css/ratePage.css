@@ -1,0 +1,90 @@
+main {
+    display: flex;
+}
+.evaluate-us {
+    width: 420px;
+    height: 380px;
+    color: rgb(0, 25, 106);
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.6;
+    border: 3px solid rgb(0, 25, 106);
+    border-radius: 50%;
+    box-shadow: rgb(0, 25, 106) 0px 0px 3px;
+    background-color: white;
+    background-image: url(../images/evaluate.png);
+    background-size: contain;
+    background-position: center center;
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    z-index: -1;
+}
+
+
+form {
+    margin: 40px auto;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px 0.1em #004C99;
+    background-color: white;
+    border-radius: 10px;
+
+    margin-right: 60px;
+}
+
+/* Inputs */
+label {
+    color: #004c99;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -280px;
+}
+div:first-of-type label, div:nth-of-type(2) label{
+    margin-left: -305px;
+}
+.input-div input, textarea {
+    width: 350px;
+    display: block;
+    margin: 0px auto 15px;
+}
+input:focus-visible ,textarea:focus-visible {
+    outline: none;
+}
+input[type="text"] {
+    margin-bottom: 0;
+}
+
+
+/* Stars */
+.starts {
+    margin: 10px 0 15px;
+    font-size: 20px;
+}
+
+
+/* clear And Send */
+.buttons {
+    margin: 10px 0 15px;
+}
+.buttons input{
+    background-color: #004c99;
+    color: white;
+    padding: 8px 32px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Label Errors */
+.error {
+    color: red;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+}
+#name-error {
+    margin-left: 195px;
+}
